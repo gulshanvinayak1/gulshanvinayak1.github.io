@@ -9,17 +9,31 @@
   font-style: normal;
 }
 
-
-.header-content{
-    min-height: 75vh;
+.header-content {
+  min-height: 75vh;
 }
 
-.btn-pri{
-    background-color: #79ADFD;
-    color: black;
-    border:none;
-    font-weight: 400;
+.about-content {
+  min-height: 75vh;
 }
-.btn-pri:hover{
-    background-color: #79ADFD;
+
+.btn-pri {
+  background-color: #79ADFD;
+  color: black;
+  border: none;
+  font-weight: 400;
+}
+
+.btn-pri:hover {
+  background-color: #79ADFD;
+}
+
+@media screen and (max-width: 576px) {
+  .about-content {
+    min-height: 0vh;
+  }
+
+  .about-image {
+    display: none;
+  }
 }
