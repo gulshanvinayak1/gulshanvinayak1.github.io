@@ -20,7 +20,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 
-    <link rel="shortcut icon" href="./images/profile-pic.png" type="image/png">
+    <link rel="shortcut icon" href="./images/profile-pic.png" type="image/x-icon">
 </head>
 
 <body>
@@ -68,9 +68,7 @@
                             <h6 class="display-6">Hello. I&apos;m</h6>
                             <h1 class="display-2 fw-semibold">Gulshan</h1>
                             <p class="fs-3 pt-3">
-                                <a href="" target="_blank" class="text-decoration-none text-dark">
-                                    <button class="btn btn-lg btn-pri rounded-pill">Get Resume</button>
-                                </a>
+                                <button class="btn btn-lg btn-pri rounded-pill">Get Resume</button>
                                 <!-- <b class="tags">&lt;</b><b class="tags">/&gt;</b> -->
                             </p>
                         </div>
@@ -78,7 +76,7 @@
                 </div>
                 <div class="col-lg-5 row justify-content-center">
                     <div class="profile-pic">
-                        <img class="img-fluid rounded" src="./images/profile-pic.png" width="400px" alt="Gulshan"
+                        <Image class="img-fluid rounded" src="./images/profile-pic.png" width="400px" alt="Gulshan"
                             priority={true} rel="preload" />
                     </div>
                 </div>
@@ -92,8 +90,8 @@
             <div class="about-content row justify-content-center align-items-center">
                 <div class="col-lg-6 row justify-content-center">
                     <div class="profile-pic">
-                        <img class="img-fluid rounded about-image" src="./images/about2.png" width="400px" alt="Gulshan"
-                            priority={true} rel="preload" />
+                        <Image class="img-fluid rounded about-image" src="./images/about2.png" width="400px"
+                            alt="Gulshan" priority={true} rel="preload" />
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -139,7 +137,7 @@
                 <div class="col-lg-4 text-center mb-4">
                     <div class="p-4 shadow rounded">
                         <div class="">
-                            <img class="img-fluid rounded" src="./images/climate.png" width="230px" alt="Gulshan"
+                            <Image class="img-fluid rounded" src="./images/climate.png" width="230px" alt="Gulshan"
                                 rel="preload" />
                         </div>
                         <div>
@@ -160,7 +158,7 @@
         <div class="container header-content pb-5">
             <h3 class="display-4 fw-semibold text-center">Experience</h3>
             <div class="row justify-content-around m-auto py-2">
-                <div class="col-md-10 col-12 shadow bg-white rounded my-3 p-2">
+                <div class="col-md-10 col-12 shadow bg-white rounded my-3 p-3">
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                             <div class="text-center">
@@ -191,7 +189,7 @@
                 </div>
             </div>
             <div class="row m-auto py-2 justify-content-center">
-                <div class="col-md-10 col-12 shadow bg-white rounded my-3 p-2">
+                <div class="col-md-10 col-12 shadow bg-white rounded my-3 p-3">
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                             <div class="text-center">
@@ -230,17 +228,19 @@
         <div class="container">
             <h3 class="display-4 fw-semibold text-center">Education</h3>
             <div class="row m-auto py-2 justify-content-center">
-                <div class="col-md-10 col-12 shadow bg-white rounded my-3">
+                <div class="col-md-10 col-12 shadow bg-white rounded my-3 p-3">
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                             <div class="text-center">
-                                <img class="img-fluid" src="images/nitj.webp" alt="NIT Jalandhar" width="250px" />
+                                <img class="img-fluid" src="./images/nitj.png" alt="NIT Jalandhar" width="140px" />
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-8 col-sm-12 col-12">
                             <div>
-                                <h4 class="">Dr. B R Ambedkar National Institute of Technology Jalandhar</h4>
-                                <p class="">2020 - 2024</p>
+                                <h4 class=""> Dr. B.R. Ambedkar National Institute of Technology Jalandhar (NIT
+                                    Jalandhar)
+                                </h4>
+                                <p class="">2020 - Present</p>
                                 <h5 class="">Electronics and Communication Engineering</h5>
                                 <h6 class="">Bachelor of Technology</h6>
                             </div>
@@ -248,26 +248,52 @@
                     </div>
                 </div>
             </div>
-            <div class="row m-auto py-2 justify-content-center ">
-                <div class="col-md-10 col-12 shadow bg-white rounded my-3">
+
+            <div class="row m-auto py-2 justify-content-center">
+                <div class="col-md-10 col-12 shadow bg-white rounded my-3 p-3">
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                             <div class="text-center">
-                                <img class="img-fluid" src="images/nitj.webp" alt="NIT Jalandhar" width="250px" />
+                                <img class="img-fluid" src="./images/PSEB.png" alt="PSEB" width="120px" />
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-8 col-sm-12 col-12">
                             <div>
-                                <h4 class="">Dr. B R Ambedkar National Institute of Technology Jalandhar</h4>
-                                <p class="">2020 - 2024</p>
-                                <h5 class="">Electronics and Communication Engineering</h5>
-                                <h6 class="">Bachelor of Technology</h6>
+                                <h4 class=""> Govt.Model Senior Secondary School, Fazilka</h4>
+                                <p class="">2018 - 2020</p>
+                                <h5 class="">Senior Secondary Education</h5>
+                                <h6 class="">Issued by Punjab School Education Board (PSEB)</h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="row m-auto py-2 justify-content-center">
+                <div class="col-md-10 col-12 shadow bg-white rounded my-3 p-3">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                            <div class="text-center">
+                                <img class="img-fluid" src="./images/PSEB.png" alt="PSEB" width="120px" />
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                            <div>
+                                <h4 class="">Saints Public High School, Mandi Ladhuka</h4>
+                                <p class="">2005 - 2018</p>
+                                <h5 class="">High School Education</h5>
+                                <h6 class="">Issued by Punjab School Education Board (PSEB)</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
+
+
     </section>
 
     <!-- Contact -->
@@ -276,14 +302,19 @@
             <div class="col-lg-6 col-md-8 col-12 rounded my-3 text-center">
                 <ul class="list-unstyled d-flex justify-content-around">
 
-                    <li class="fs-3"><a href="" class="text-secondary text-decoration-none"><i
-                                class="fa-regular fa-envelope"></i></a></li>
-                    <li class="fs-3"><a href="" class="text-secondary text-decoration-none"><i
-                                class="fa-brands fa-linkedin-in"></i></a></li>
-                    <li class="fs-3"><a href="" class="text-secondary text-decoration-none"><i
-                                class="fa-brands fa-github"></i></a></li>
-                    <li class="fs-3"><a href="" class="text-secondary text-decoration-none"><i
-                                class="fa-brands fa-instagram"></i></a></li>
+                    <li class="fs-3"><a href="mailto:gulshan1001v@gmail.com"
+                            class="text-dark text-decoration-none"><i class="fa-regular fa-envelope"></i></a></li>
+                    <li class="fs-3"><a href="https://www.linkedin.com/in/gulshanvinayak1/"
+                            class="text-primary text-decoration-none"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="fs-3"><a href="https://github.com/gulshanvinayak1"
+                            class="text-dark text-decoration-none"><i class="fa-brands fa-github"></i></a></li>
+                    <li class="fs-3"><a href="https://www.instagram.com/gulshanvinayak1/"
+                            class="text-danger text-decoration-none"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="fs-3"><a href="https://www.instagram.com/gulshanvinayak1/"
+                            class="text-info text-decoration-none"><i class="fa-brands fa-salesforce"></i></a></li>
+                    <li class="fs-3"><a href="https://www.instagram.com/gulshanvinayak1/"
+                            class="text-dark text-decoration-none"><i class="fa-brands fa-x-twitter"></i></a></li>
 
                 </ul>
             </div>
